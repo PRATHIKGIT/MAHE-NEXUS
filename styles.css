@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fce5e5;
+}
+*{
+  text-decoration: none;
+}
+a{
+  color: white;
+}
+img{
+height:9rem;
+width: 5rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin: 0 20px;
+  padding: 40px;
+  text-align: center;
+  transition: transform 0.3s ease;
+ 
+  margin-top: 30px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  margin: 0;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+
+.button-like-text {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-like-text:hover {
+
+  background-color: #0056b3;
+
+}
+
+
+
+
+/* Media query for screens smaller than 768px (tablets and phones) */
+@media (max-width: 768px) {
+.container {
+  margin-top: 60px;
+  flex-direction: column; 
+  height: 200%;
+}
+
+}
